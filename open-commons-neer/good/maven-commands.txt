@@ -1,0 +1,14 @@
+maven commands
+===============
+Name				| Goal
+
+maven open-commons-neer assembly-single	| clean package assembly:single		| Used to build & run project in eclipse
+
+
+
+maven ofds clean install skipTests	| clean install -e -X
+maven ofds clean run Tests		| clean install -DLOG_LEVEL="WARN" -DsharedPath="C:\Work\WS_JAVA\WS_BOOT\ofds\src\main\resources\env\dev"
+maven ofds spring-boot-run-dev	| spring-boot:run
+maven ofds spring-boot-run-prod	| spring-boot:run
+maven open-parent clean install	| clean install
+maven ofds assembly-single		| clean package assembly:single

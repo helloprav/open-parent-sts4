@@ -1,0 +1,30 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "type": "this type",
+      "description": "either Data or errors can be present on top level"
+    }
+  ],
+  "errors": [
+    "error 1",
+    "error 2",
+    "error N"
+  ],
+  "included": [
+    "included Only if data in top level is present"
+  ],
+  "links": {
+    "self": "/api/v2/businessworkspaces?expanded_view=true&limit=6&page=2",
+    "related": "a related resource link when the primary data represents a resource relationship",
+    "first": "/products?page=0&per_page=20",
+    "last": "/products?page=0&per_page=20",
+    "next": "/api/v2/businessworkspaces?expanded_view=true&limit=6&page=3",
+    "prev": "/api/v2/businessworkspaces?expanded_view=true&limit=6&page=1"
+  },
+  "pagination": {
+    "page": 20,
+    "limit": 10,
+    "total": 3465
+  }
+}

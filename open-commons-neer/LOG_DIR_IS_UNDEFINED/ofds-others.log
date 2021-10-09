@@ -1,0 +1,40 @@
+[08:11:34.484] [WARN ] [            com.zaxxer.hikari.pool.HikariPool 787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9h24m10s732ms910µs200ns).
+[08:34:06.815] [WARN ] [            com.zaxxer.hikari.pool.HikariPool 787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m30s994ms163µs400ns).
+[12:00:57.127] [WARN ] [            com.zaxxer.hikari.pool.HikariPool 787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h2m20s413ms186µs200ns).
+[12:41:53.954] [WARN ] [            com.zaxxer.hikari.pool.HikariPool 787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m56s135ms71µs700ns).
+[17:45:50.783] [WARN ] [            com.zaxxer.hikari.pool.HikariPool 787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h19m26s308ms613µs).
+[18:04:01.378] [WARN ] [            com.zaxxer.hikari.pool.HikariPool 787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m11s89ms565µs500ns).
+[18:32:24.009] [WARN ] [            com.zaxxer.hikari.pool.HikariPool 787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m52s440ms417µs).
+[21:35:34.564] [WARN ] [            com.zaxxer.hikari.pool.HikariPool 787] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=24m10s718ms130µs300ns).
+[21:44:43.872] [INFO ] [o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin 159] Application shutdown requested.
+[21:44:43.883] [DEBUG] [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 1006] Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@60cf80e7, started on Wed Jul 28 20:28:54 IST 2021
+[21:44:43.909] [DEBUG] [o.s.context.support.DefaultLifecycleProcessor 369] Stopping beans in phase 2147483647
+[21:44:43.912] [DEBUG] [o.s.context.support.DefaultLifecycleProcessor 242] Bean 'documentationPluginsBootstrapper' completed its stop procedure
+[21:44:43.920] [DEBUG] [o.s.context.support.DefaultLifecycleProcessor 242] Bean 'webServerGracefulShutdown' completed its stop procedure
+[21:44:43.921] [DEBUG] [o.s.context.support.DefaultLifecycleProcessor 369] Stopping beans in phase 2147483646
+[21:44:46.476] [DEBUG] [o.s.context.support.DefaultLifecycleProcessor 242] Bean 'webServerStartStop' completed its stop procedure
+[21:44:46.480] [DEBUG] [ o.s.w.c.support.GenericWebApplicationContext 1006] Closing org.springframework.web.context.support.GenericWebApplicationContext@61dc111a, started on Wed Jul 28 20:30:16 IST 2021, parent: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@60cf80e7
+[21:44:46.481] [DEBUG] [ o.s.core.env.PropertySourcesPropertyResolver 115] Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+[21:44:46.484] [DEBUG] [     o.s.b.a.endpoint.jmx.JmxEndpointExporter 116] Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Beans' from the JMX domain
+[21:44:46.485] [DEBUG] [     o.s.b.a.endpoint.jmx.JmxEndpointExporter 116] Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Caches' from the JMX domain
+[21:44:46.485] [DEBUG] [     o.s.b.a.endpoint.jmx.JmxEndpointExporter 116] Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Health' from the JMX domain
+[21:44:46.485] [DEBUG] [     o.s.b.a.endpoint.jmx.JmxEndpointExporter 116] Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Info' from the JMX domain
+[21:44:46.486] [DEBUG] [     o.s.b.a.endpoint.jmx.JmxEndpointExporter 116] Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Conditions' from the JMX domain
+[21:44:46.486] [DEBUG] [     o.s.b.a.endpoint.jmx.JmxEndpointExporter 116] Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Configprops' from the JMX domain
+[21:44:46.486] [DEBUG] [     o.s.b.a.endpoint.jmx.JmxEndpointExporter 116] Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Env' from the JMX domain
+[21:44:46.486] [DEBUG] [     o.s.b.a.endpoint.jmx.JmxEndpointExporter 116] Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Flyway' from the JMX domain
+[21:44:46.487] [DEBUG] [     o.s.b.a.endpoint.jmx.JmxEndpointExporter 116] Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Loggers' from the JMX domain
+[21:44:46.487] [DEBUG] [     o.s.b.a.endpoint.jmx.JmxEndpointExporter 116] Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Threaddump' from the JMX domain
+[21:44:46.487] [DEBUG] [     o.s.b.a.endpoint.jmx.JmxEndpointExporter 116] Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Metrics' from the JMX domain
+[21:44:46.487] [DEBUG] [     o.s.b.a.endpoint.jmx.JmxEndpointExporter 116] Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Scheduledtasks' from the JMX domain
+[21:44:46.487] [DEBUG] [     o.s.b.a.endpoint.jmx.JmxEndpointExporter 116] Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Mappings' from the JMX domain
+[21:44:46.490] [INFO ] [      o.s.s.concurrent.ThreadPoolTaskExecutor 218] Shutting down ExecutorService 'applicationTaskExecutor'
+[21:44:46.495] [INFO ] [o.s.o.j.LocalContainerEntityManagerFactoryBean 598] Closing JPA EntityManagerFactory for persistence unit 'default'
+[21:44:46.495] [DEBUG] [    org.hibernate.internal.SessionFactoryImpl 771] HHH000031: Closing
+[21:44:46.499] [DEBUG] [ o.hibernate.type.spi.TypeConfiguration$Scope 350] Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@744b5ef2] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@6a6a3fc4]
+[21:44:46.514] [DEBUG] [   o.h.s.internal.AbstractServiceRegistryImpl 419] Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+[21:44:46.522] [DEBUG] [o.h.b.r.internal.BootstrapServiceRegistryImpl 295] Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+[21:44:46.523] [DEBUG] [   o.s.j.e.annotation.AnnotationMBeanExporter 452] Unregistering JMX-exposed beans on shutdown
+[21:44:46.525] [DEBUG] [   o.s.j.e.annotation.AnnotationMBeanExporter 186] Unregistering JMX-exposed beans
+[21:44:46.527] [INFO ] [           com.zaxxer.hikari.HikariDataSource 350] HikariPool-1 - Shutdown initiated...
+[21:44:46.540] [INFO ] [           com.zaxxer.hikari.HikariDataSource 352] HikariPool-1 - Shutdown completed.
