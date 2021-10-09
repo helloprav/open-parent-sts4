@@ -7,4 +7,4 @@ Typically the followings can be order of steps to use any module from this paren
 	3) Add application-<module>.yml (or any other name for the yml/properties file) in classpath. Optional step
 	4) Start using the classes from this added module
 
-test changes v2
+test changes v3
